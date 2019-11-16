@@ -61,6 +61,13 @@
 .dropdown-content a:hover {
   background-color: #ddd;
 }
+  
+.special-title {
+    @media (max-width 900px)
+        font-size 1.6em
+    @media (max-width 700px)
+        font-size 1.4em
+}
 
 .show {
   display: block;
@@ -71,10 +78,10 @@
 
 <div class="navbar">
   <h2>LangLang - Tusupeö</h2>
-  <h1 class="special-title">LangLang is <textSwitcher :items="[
+  <h3 class="special-title">LangLang is <textSwitcher :items="[
                                 'high-quality',
                                 'really good',
-                                'super cool']"/></h1>
+                                'super cool']"/></h3>
   <div class="dropdown">
   <button class="dropbtn" onclick="myFunction()">Menu
     <i class="fa fa-caret-down"></i>
