@@ -21,68 +21,22 @@
   text-decoration: none;
 }
 
-.dropdown {
-  float: right;
-  overflow: hidden;
-}
-
-.dropdown .dropbtn {
-  cursor: pointer;
-  font-size: 16px;  
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-}
-
-.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
-  background-color: #183d90;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #0080ff;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  float: none;
-  color: #0080ff;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: right;
-}
-
-.dropdown-content a:hover {
-  background-color: #ddd;
-}
-  
-.show {
-  display: block;
-}
 </style>
 </head>
 <body>
 
 <div class="navbar">
   <h2>LangLang - Tusupeö</h2>
-  <div class="dropdown">
-  <button class="dropbtn" onclick="myFunction()">Menu
-    <i class="fa fa-caret-down"></i>
-  </button>
-  <div class="dropdown-content" id="myDropdown">
-    <a href="index.html">Home</a>
-    <a href="projects.html">About</a>
-  </div>
-  </div> 
+  <ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="projects.html">Projects</a></li>
+  </ul>
 </div>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 <h3> LangLang - Tusupeö </h3>
 <h5> Not to be confused with the pianist Lang Lang, but I suggest listening to his music <a href="https://www.langlangofficial.com">here</a>.</h5>
 <blockquote>
