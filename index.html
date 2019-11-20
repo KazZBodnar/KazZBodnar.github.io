@@ -1,47 +1,112 @@
-<!DoCtYpE html>
+<!DOCTYPE html>
 <html>
 <head>
   <title>LangLang</title>
   <link rel="icon" href="assets/img/favicon (2).ico">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta charset="UTF-8">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
-  <!-- add Fontawesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-.navbar {
-  overflow: hidden;
-  background-color: #0080ff;
-  font-family: Times, Helvetica, sans-serif; 
-  /* only for navbar */ 
-}
-.navbar a {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
+
  .center{
   text-align: center
  }
+ 
+/* The sidebar menu */
+.sidebar {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+}
+
+/* The sidebar links */
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #0080ff;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* The button used to open the sidebar */
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #0080ff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s; /* If you want a transition effect */
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
 </style>
 </head>
 <body>
 
-<div class="navbar">
-  <p size="24px"><a href="https://www.langlang.tech/" style="text-decoration: none"> LangLang</a></p>
-  <ul>
-  <li><a href="index.html">Home</a></li>
-  <li><a href="projects.html">Projects</a></li>
-  <li><a href="lipsum.html">Lipsum</a><li>
-  </ul>
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <h1 style="color:white;">&nbsp;&nbsp;LangLang</h1>
+  <a href="index.html">Home</a>
+  <a href="projects.html">Projects</a>
+  <a href="lipsum.html">Lipsum</a>
 </div>
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()">&#9776;</button>
+</div>
+<script>
+  /* Set the width of the sidebar to 250px and the left margin of the page content to 250px */
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+/* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft = "0";
+}
+</script>
 <h1> LangLang</h1>
 <h5> Not to be confused with the pianist Lang Lang, but I suggest listening to his music <a href="https://www.langlangofficial.com" target="_blank">here</a>.</h5>
 <blockquote>
 <style>
-.dropdown { /* hover txt */
+.dropdown {
   position: relative;
   display: inline-block;
 }
@@ -76,7 +141,7 @@
 </div>
 <div style="padding-left:17px">
   <h2>About</h2>
-  <p>My name is Sam Langer. I live in Portland, OR, and I am currently 13 years old. I got into coding in November 2019,and this is my first website. I was inspired to make this website by Kaz Malhotra and Theo Butler.<br>I make fantasy maps and conlangs.</p>
+  <p>My name is Sam Langer. I live in Portland, OR, and I am currently 13 years old. I got into coding in November 2019,and this is my first website. I was inspired to make this website by Kaz Malhotra and Theo Butler.</p>
 </div>
 <div>
   <button class="button buttont" onclick="window.location.href = 'https://kazmal.tech';" >Kaz's website</button>
@@ -97,8 +162,8 @@
   color: white;
 }
  </style>
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeJvVrgGx74OQ_nw0vDrLkpA2klDXpn3vpI43tvkNP4stvY4g/viewform?embedded=true" width="640" height="761" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-<button class="button" onclick="window.location.href = 'https://forms.gle/fmr3rgRaJ9d3DhFk7';" >Click me to contribute to the website if the form does not work</button>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeJvVrgGx74OQ_nw0vDrLkpA2klDXpn3vpI43tvkNP4stvY4g/viewform?embedded=true" width="640" height="565" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+<button class="button" onclick="window.location.href = 'https://forms.gle/fmr3rgRaJ9d3DhFk7';" >Click me to contribute to the website if the form does not render</button>
 </body>
 <footer>
   <div class="container-fluid padding">
