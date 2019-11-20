@@ -1,37 +1,96 @@
+
 <!DOCTYPE html>
 <html>
 <head>
 <link rel="icon" href="assets/img/favicon (2).ico">
 <title>Projects - LangLang</title>
 <style>
-.navbar {
-  overflow: hidden;
-  background-color: #0080ff;
-  font-family: Times, Helvetica, sans-serif;
+/* The sidebar menu */
+.sidebar {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
 }
-.navbar a {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
+/* The sidebar links */
+.sidebar a {
+  padding: 8px 8px 8px 32px;
   text-decoration: none;
+  font-size: 25px;
+  color: #0080ff;
+  display: block;
+  transition: 0.3s;
+}
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+/* The button used to open the sidebar */
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #0080ff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+.openbtn:hover {
+  background-color: #444;
+}
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s; /* If you want a transition effect */
+  padding: 20px;
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
 }
 </style>
 </head>
-<div class="navbar">
-  <p size="24px"><a href="https://www.langlang.tech/" style="text-decoration: none" >LangLang</a></p>
-  <ul>
-  <li><a href="index.html">Home</a></li>
-  <li><a href="projects.html">Projects</a></li>
-  <li><a href="lipsum.html">Lipsum</a></li>
-  </ul>
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <h1 style="color:white;">&nbsp;&nbsp;LangLang</h1>
+  <a href="index.html">Home</a>
+  <a href="projects.html">Projects</a>
+  <a href="lipsum.html">Lipsum</a>
 </div>
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()">&#9776;</button>
+</div>
+<script>
+  /* Set the width of the sidebar to 250px and the left margin of the page content to 250px */
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+/* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft = "0";
+}
+</script>
 <h1>LangLang - Projects</h1>
 <div style="padding-left:17px">
   <h2>Scripts</h2>
   <h3>Taléran</h3>
-  <img src="assets/img/IMG-1562.PNG" alt="bit.ly/taleran">
+  <img src="assets/img/IMG-1562.PNG" alt="http://bit.ly/taleran">
 </div>
 <div>
   <h2>Sounds</h2>
@@ -60,8 +119,8 @@
       <div class="row text-center">
           <div class="col-12">
             
-              <h5 style="text-align:center">&copy; Sam Langer 2019</h5>
-            	<p style="text-align:center">LangLang is open source on <a href="https://github.com/KazZBodnar/KazZBodnar.github.io" target="_blank">GitHub</a> and <a href="https://repl.it/@KazZBodnar" target="_blank">repl.it</a>.</p>
+              <h5>&copy; Sam Langer 2019</h5>
+              <p>LangLang is open source on <a href="https://github.com/KazZBodnar/KazZBodnar.github.io" target="_blank">GitHub</a> and <a href="https://repl.it/@KazZBodnar" target="_blank">repl.it</a>.</p>
           </div>
       </div>
   </div>
