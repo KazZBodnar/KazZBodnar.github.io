@@ -1,4 +1,4 @@
-# langlang.tech
+# [langlang.tech](https://langlang.tech)
 
 I use [repl.it](https://repl.it/@KazZBodnar/langlang) to test the code and how it looks, and I paste it into GitHub to finalize.
 
