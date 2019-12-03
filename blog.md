@@ -1,5 +1,7 @@
 # LangLang Blog
 
+
+
 ## Chat Room | 3 Dec. 2019
 I have created a chat room where you can talk about HTML and CSS. You are free to ask, or answer questions that people ask about HTML coding and CSS, or just talk about your website. You can also advertise your website with HTML/CSS and its source code.
 
@@ -26,6 +28,9 @@ Today I created this blog, which is my first markdown blog.
 
 \- Sam Langer
 
+___
+
+###### [The raw page for this blog](https://langlang.tech/blog.md).
 
 ###### This website is open source on [GitHub](https://github.com/KazZBodnar/KazZBodnar.github.io).
 
