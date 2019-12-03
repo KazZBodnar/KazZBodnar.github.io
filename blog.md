@@ -1,5 +1,11 @@
 # LangLang Blog
 
+## Chat Room | 3 Dec. 2019
+I have created a chat room where you can talk about HTML and CSS. You are free to ask, or answer questions that people ask about HTML coding and CSS, or just talk about your website. You can also advertise your website with HTML/CSS and its source code.
+
+[The link for the chat room](https://riot.im/app/#/room/#html.css:matrix.org).
+
+\- Sam Langer
 ## IP Fixed | 2 Dec. 2019
 Today, I fixed the problem. All I did was change the wrong name servers to the right ones administered by Cloudflare, and it was fixed. I am glad my website is online again. Soon I will set up my website email, so you can email me soon. I will add the link when I activate the email. I also added Creative Commons licensing on my projects page.
 
