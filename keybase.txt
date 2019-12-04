@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/kbodnar
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://langlang.tech
+  * I am kbodnar (https://keybase.io/kbodnar) on keybase.
+  * I have a public key ASAfZcd_rm9daic6hfMvHX3wfG2gQ69LPrw0gMwvhxNOqQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01201f65c77fae6f5d6a273a85f32f1d7df07c6da043af4b3ebc3480cc2f87134ea90a",
+      "host": "keybase.io",
+      "kid": "01201f65c77fae6f5d6a273a85f32f1d7df07c6da043af4b3ebc3480cc2f87134ea90a",
+      "uid": "1e03aa41705a366cd7053e644891fa19",
+      "username": "kbodnar"
+    },
+    "merkle_root": {
+      "ctime": 1575420152,
+      "hash": "98c13a7bc9d6cccc6acce0c6219774f2947494c78e7eeef7547990cc9d2a96b11d1b2e3f003ee43f34eab19cd7c92609d6e2fa54e7bd21bec712cca66a0ca709",
+      "hash_meta": "d089ba92a5c6a1f98f9353dfd55063b27ad33aad9c7f35f446e6a8cdf45f0ac3",
+      "seqno": 12065882
+    },
+    "service": {
+      "entropy": "yB3liXH0qXPIr5sSPu54Jdl5",
+      "hostname": "langlang.tech",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.0.0"
+  },
+  "ctime": 1575420159,
+  "expire_in": 504576000,
+  "prev": "461e8289a2277c0e1f11345ef1bab25b34a5c87a5da8d00091ae316a5457e024",
+  "seqno": 8,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgH2XHf65vXWonOoXzLx198HxtoEOvSz68NIDML4cTTqkKp3BheWxvYWTESpcCCMQgRh6CiaInfA4fETRe8bqyWzSlyHpdqNAAka4xalRX4CTEIAZpOEPYStHVI0Zl8A5QMDPPqRb6768MOCNnBzUXN12lAgHCo3NpZ8RAfmg6KgKbUHjVqqmhu+hzeshu17yicwW3Pi4mxq5DtyhSWwRxevjIsHwBVN45W5wt0jX7nlQ1tKWa69HcXUAbDahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIKpJkD/+X1jbYLuLbpoLnETi+nrKTgvgeGRbEVtwdgKao3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/kbodnar
+
+==================================================================
