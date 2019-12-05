@@ -1,6 +1,11 @@
 # LangLang Blog
 
+## Apps | 4 Dec. 2019
+I added a few apps that you can add to your website through Cloudflare. The apps added are the social icons in the footer, the sticky in the lower right corner, the loading bar, the search ar in the blog, and the back to top button. Thank you so much Cloudflare and the people who developed the apps! My website is much better now.
 
+Website of the day: [Cloudflare](https://cloudflare.com)
+
+\- Sam Langer
 
 ## Chat Room | 3 Dec. 2019
 I have created a chat room where you can talk about HTML and CSS. You are free to ask, or answer questions that people ask about HTML coding and CSS, or just talk about your website. You can also advertise your website with HTML/CSS and its source code.
