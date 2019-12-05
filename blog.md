@@ -1,7 +1,7 @@
 # LangLang Blog
 
 ## Apps | 4 Dec. 2019
-I added a few apps that you can add to your website through Cloudflare. The apps added are the social icons in the footer, the sticky in the lower right corner, the loading bar, the search ar in the blog, and the back to top button. Thank you so much Cloudflare and the people who developed the apps! My website is much better now.
+I added a few apps that you can add to your website through Cloudflare. The apps added are the social icons in the footer, the sticky in the lower right corner, the loading bar, the search bar in the blog, and the back to top button. Thank you so much Cloudflare and the people who developed the apps! My website is much better now.
 
 Website of the day: [Cloudflare](https://cloudflare.com)
 
