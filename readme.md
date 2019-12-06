@@ -1,3 +1,5 @@
+![Icon](/assets/img/favicon (2).ico)
+
 # [langlang.tech](https://langlang.tech)
 
 I have a blog on my website. View it [here](https://langlang.tech/blog).
