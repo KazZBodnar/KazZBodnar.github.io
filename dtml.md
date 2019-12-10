@@ -49,7 +49,7 @@
 ;1-Foobar;
 :
 :-
-;-Foo:lb:Bar;
+;-Foo?lb?Bar;
 :
 :
 :foot-
