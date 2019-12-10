@@ -1,4 +1,4 @@
-# DTML (Dot Text Markup Language)
+# DTML (Dot Text Markup Language) (WIP!)
 #### DTML is a coding language that I am creating that mimics HTML in a minimalistic way. The key is below:
 
 ###### (HTML = DTML)
