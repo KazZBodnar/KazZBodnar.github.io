@@ -1,4 +1,6 @@
-# [langlang.tech](https://langlang.tech)
+![](Screen Shot 2019-12-10 at 4.48.09 PM.png)
+
+## [langlang.tech](https://langlang.tech)
 
 I have a blog on my website. View it [here](https://langlang.tech/blog).
 
