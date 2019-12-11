@@ -153,3 +153,26 @@ Note: CSS and JavaScript are the same in HTML and DTML
 :
 :end
 ```
+
+would show up in HTML as...
+
+```
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Foo</title>
+    </head>
+    <body>
+        <div>
+            <p>Foo<br>Bar</p>
+        </div>
+    </body>
+    <footer>
+        <h6>©2019 Mr. Foo</h6>
+    </footer>
+</html>
+```
+
+As you can see, DTML simplifies the code heavily, and helps to read content more easily.
+
+\- Sam
