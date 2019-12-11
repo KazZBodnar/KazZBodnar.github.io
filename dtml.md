@@ -27,8 +27,8 @@
 
 <!DOCTYPE HTML> = :[dtml]:
 
-<html>foo
-</html> = :code-foo
+<html lang="en-US">foo
+</html> = :code[lang=en.us]-foo
           :end
 
 <body>foo</body> = :main-foo:
