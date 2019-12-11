@@ -35,6 +35,10 @@
 
 <footer>foo</footer> = :foot-foo:
 
+<hr> = ?div?
+
+<meta charset="UTF-8"> = !meta[char=UTF-8]!
+
 ```
 ## Example:
 
