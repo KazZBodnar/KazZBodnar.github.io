@@ -8,7 +8,7 @@ LangLang is coded with HTML, CSS, and JavaScript. Special shout-out to [Kaz Malh
 
 ### Thank you for visiting my website and have a great day!
 
-###### Quicklinks: [Blog](https://langlang.tech/blog); [Projects](https://langlang.tech/projects.html); [Stupid dinosaur jokes](https://kazmal.tech/dino); [福](https://langlang.tech/assets/img/福); [DTML (WIP)](https://langlang.tech/dtml)
+###### Quicklinks: [Blog](https://langlang.tech/blog); [Projects](https://langlang.tech/projects.html); [Stupid dinosaur jokes](https://kazmal.tech/dino); [福](https://langlang.tech/assets/img/福); [DTML](https://langlang.tech/dtml)
 
 ###### My friends' websites: [Kaz Malhotra](https://kazmal.tech); [Theo Butler](https://the-o.tech)
 
