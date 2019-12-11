@@ -3,7 +3,7 @@
 
 ###### (HTML = DTML)
 ```
-<p>foo</p> = ;-foo;
+<p style="color:red" title="tooltip">foo</p> = ;[tooltip][color=red]-foo;
 
 <h1>foo</h1> = ;1-foo;
 
@@ -13,7 +13,7 @@
 
 <a href="https://l-i.nk">foo</a> = ;link[url=https://l-i.nk]-foo;
 
-<img src="/img/foo.png" alt="an alt"> = ?img[img=/img/foo.png][alt=an alt]?
+<img src="/img/foo.png" alt="an alt" width="500" height="600"> = ?img[img=/img/foo.png][alt=an alt][w=500][h=600]?
 
 <div>cont</div> = :-cont:
 
