@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: langlang.tech
+Token: 33c5f223d2f9445d9af1219d3e18d7d2957a4998a6cdce352e009c8be71a8c9b
