@@ -100,3 +100,8 @@ else:
     print("I am sorry, but I am unable to process your request.")
 ```
 ## How to Run this Program
+1. Go to [OnlineGDB](https://www.onlinegdb.com/) and set the language to python 3.
+
+2. Select all and paste the source code.
+
+3. Hit "Run"
