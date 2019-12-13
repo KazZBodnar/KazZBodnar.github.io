@@ -1,6 +1,6 @@
 # PyCalc
-### A simple python calculator (WIP)
-This is a simple and easy-to-use calculator written in Python 3 (work in progress!).
+### A simple python calculator
+This is a simple and easy-to-use calculator written in Python 3.
 
 ## Source Code
 ```
