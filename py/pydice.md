@@ -1,4 +1,4 @@
-# PyDice
+# [PyDice](https://github.com/kazzbodnar/pydice)
 ### A simple Python D&D dice roller
 PyDice is a simple python D&D dice roller that generates psuedo-random integers to virtually "roll a die." 
 It can be used simply for random purposes or for RPG games.
