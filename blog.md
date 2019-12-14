@@ -1,9 +1,9 @@
 # LangLang Blog
 
 ## DTML | 10 Dec. 2019
-Today, I created [DTML](https://langlang.tech/dtml) (**D**ot **T**ext **M**arkup **L**anguage), a coding language that is meant to mimic HTML, but be more simplistic. It acheives this by using smaller tags to replace HTML's. For example, `<p>foo</p>` would be `;-foo;` in DTML. This reduces confusion and clutter. The only problem is, I have no idea how to make the computer actually understand the language; it's just a concept for now.
+Today, I created [CTML](https://langlang.tech/ctml) (**C**olon **T**ext **M**arkup **L**anguage), a coding language that is meant to mimic HTML, but be more simplistic. It acheives this by using smaller tags to replace HTML's. For example, `<p>foo</p>` would be `;-foo;` in CTML. This reduces confusion and clutter. The only problem is, I have no idea how to make the computer actually understand the language; it's just a concept for now.
 
-[DTML](https://langlang.tech/dtml)
+[CTML](https://langlang.tech/ctml)
 
 \- Sam Langer
 ## Apps | 4 Dec. 2019
