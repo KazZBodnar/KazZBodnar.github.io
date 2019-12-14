@@ -6,7 +6,7 @@ It can be used simply for random purposes or for RPG games.
 ## How to use PyDice
 1. Go to [OnlineGDB](https://onlinegdb.com) or a similar Python compiler.
 2. Set the language to Python 3.
-3. Select the filler text and paste in [PyDice's code](https://langlang.tech/py/pydice#Code).
+3. Select the filler text and paste in [PyDice's code](https://langlang.tech/py/pydice#code).
 4. Hit *run*.
 
 ## Code
