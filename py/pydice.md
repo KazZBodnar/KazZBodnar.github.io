@@ -3,11 +3,16 @@
 PyDice is a simple python D&D dice roller that generates psuedo-random integers to virtually "roll a die." 
 It can be used simply for random purposes or for RPG games.
 
-## How to use PyDice
-1. Go to [OnlineGDB](https://onlinegdb.com) or a similar Python compiler.
-2. Set the language to Python 3.
-3. Select the filler text and paste in [PyDice's code](https://langlang.tech/py/pydice#code).
-4. Hit *run*.
+### Installation
+#### Linux and macOS
+-`git clone https://github.com/KazZBodnar/pydice.git`  
+
+-`cd pydice`     
+### Windows
+Download the zip file and extract.
+## Usage
+
+-`python main.py`
 
 ## Code
 ```
