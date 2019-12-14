@@ -1,9 +1,9 @@
-# DTML (Dot Text Markup Language)
-### DTML is a coding language that I am creating that mimics HTML in a minimalistic way. The key is below:
+# CTML (Colon Text Markup Language)
+### CTML is a coding language that I am creating that mimics HTML in a minimalistic way. The key is below:
 
-##### (HTML = DTML)
+##### (HTML = CTML)
 
-Note: CSS and JavaScript are the same in HTML and DTML
+Note: CSS and JavaScript are the same in HTML and CTML
 
 ```
 <p style="color:red" title="tooltip">foo</p> = ;[tooltip][color=red]-foo;
@@ -28,7 +28,7 @@ Note: CSS and JavaScript are the same in HTML and DTML
 
 <!--a note--> = :;a note;:
 
-<!DOCTYPE HTML> = :[dtml]:
+<!DOCTYPE HTML> = :[ctml]:
 
 <html lang="en-US">foo
 </html> = :code[lang=en.us]-foo
@@ -137,7 +137,7 @@ Ignore command characters = \
 ## Example:
 
 ```
-:[dtml]:
+:[ctml]:
 :code-
 :head-
 ;title-Foo;
