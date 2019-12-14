@@ -99,9 +99,13 @@ else:
   else:
     print("I am sorry, but I am unable to process your request.")
 ```
-## How to Run this Program
-1. Go to [OnlineGDB](https://www.onlinegdb.com/) and set the language to python 3.
+### Installation
+#### Linux and macOS
+-`git clone https://github.com/KazZBodnar/pythoncalc.git`  
 
-2. Select all and paste the source code.
+-`cd pydice`     
+### Windows
+Download the zip file and extract.
+## Usage
 
-3. Hit "Run"
+-`python main.py`
