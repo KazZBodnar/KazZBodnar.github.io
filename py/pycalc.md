@@ -1,4 +1,4 @@
-# PyCalc
+# [PyCalc](https://github.com/kazzbodnar/pythoncalc)
 ### A simple python calculator
 This is a simple and easy-to-use calculator written in Python 3.
 
