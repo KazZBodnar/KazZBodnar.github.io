@@ -1,4 +1,9 @@
+<head>
+  <link rel="icon" href="icon.ico">
+</head>
+
 # My Python projects
+
 ### Below is a list of all my python projects and a descripton.
 
 #### [PyCalc](https://langlang.tech/py/pycalc)
