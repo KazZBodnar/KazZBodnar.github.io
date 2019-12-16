@@ -1,5 +1,9 @@
 # LangLang Blog
 
+## Python | 14 Dec. 2019
+I have started to get more into Python and make some projects and utilities. You can view my projects at [python.langlang.tech](https://python.langlang.tech). I host python.langlang.tech through [repl.it](https://repl.it) which is good (enough) for my purposes.
+
+\- Sam Langer
 ## DTML | 10 Dec. 2019
 Today, I created [CTML](https://langlang.tech/ctml) (**C**olon **T**ext **M**arkup **L**anguage), a coding language that is meant to mimic HTML, but be more simplistic. It acheives this by using smaller tags to replace HTML's. For example, `<p>foo</p>` would be `;-foo;` in CTML. This reduces confusion and clutter. The only problem is, I have no idea how to make the computer actually understand the language; it's just a concept for now.
 
