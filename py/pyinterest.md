@@ -25,3 +25,7 @@ print("Final result:", Fore.GREEN + str(round(q4, 2)))
 `cd pyinterest`
 
 `python main.py`
+
+### OR
+
+[Click me](http://pyinterest.kazzbodnar.repl.run/)
