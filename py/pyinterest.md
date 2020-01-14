@@ -19,3 +19,9 @@ q4 = (q*q3)+add4
 print("You have", Fore.YELLOW + str(round(q4, 2)), Fore.WHITE + "dollars.")
 print("Final result:", Fore.GREEN + str(round(q4, 2)))
 ```
+## How to run
+`git clone https://github.com/kazzbodnar/pyinterest`
+
+`cd pyinterest`
+
+`python main.py`
